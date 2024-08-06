@@ -1,0 +1,81 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container-head {
+}
+
+.container-navbar {
+  background-color: rgb(44, 56, 56);
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style: none;
+  font-size: 30px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 4px;
+  height: 80px;
+  color: black;
+}
+
+.li-navbar:hover {
+  background-color: rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  bac
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-content {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.a-content {
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.container-footer {
+  background-color: aqua;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  font-size: 40px;
+}
